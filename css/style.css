@@ -1,5 +1,91 @@
+:root{
+    --them-aqua-300: #0ba3b1;
+    --them-aqua-500: #078490;
+    --them-white: #fff;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+html , body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1320px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* tags */
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+
+/* aside section start */ 
+.aside{
+    width: 300px;
+    background-color:var(--them-aqua-300);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: scroll;
+}
+
+.aside::-webkit-scrollbar{
+    width: 0px;
+}
+
+.aside .logo{
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.aside .logo i{
+    font-size: 2rem;
+    color: var(--them-white);
+    padding: 1.5rem 0;
+}
+
+.aside .logo h2{
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--them-white);
+}
+
+.aside nav ul li{
+    padding: 2rem;
+    padding-right: 10px;
+    font-size: 21px;
+    color: var(--them-white);
+}
+
+.aside nav ul li a{
+    font-size: 1.6rem;
+    border: 2px solid var(--them-white);
+    padding: .5rem;
+    padding-right: 10px;
+}
+
+.aside nav ul li i{
+    font-size: 20px;
+    padding: 2.5rem;
+}
+
+.aside nav ul li i:first-child{
+    background-color: var(--them-white);
+    color: var(--them-aqua-300);
+}
+
+/* aside section end */
