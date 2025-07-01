@@ -53,7 +53,7 @@ a{
 }
 
 .aside .logo i{
-    font-size: 2rem;
+    font-size: 26px;
     color: var(--them-white);
     padding: 1.5rem 0;
 }
@@ -62,30 +62,51 @@ a{
     font-size: 2rem;
     font-weight: 500;
     color: var(--them-white);
+    margin-bottom: 3.5rem;
 }
 
 .aside nav ul li{
-    padding: 2rem;
+    width: 100%;
+    padding: 1.2rem 2rem;
     padding-right: 10px;
     font-size: 21px;
     color: var(--them-white);
 }
 
 .aside nav ul li a{
+    width: 100%; 
     font-size: 1.6rem;
     border: 2px solid var(--them-white);
     padding: .5rem;
-    padding-right: 10px;
 }
 
 .aside nav ul li i{
-    font-size: 20px;
-    padding: 2.5rem;
+    margin-right: 1rem;
 }
-
-.aside nav ul li i:first-child{
+/*.aside nav ul li{
     background-color: var(--them-white);
     color: var(--them-aqua-300);
+ }
+*/
+.aside .aside-social-icon{
+    padding-left: 38px;
+}
+
+.aside .aside-social-icon a{
+    text-align: center;
+    background-color: var(--them-white);
+    color: var(--them-aqua-300);
+    padding: 1rem;
+    margin: .5rem;
+    font-size: 2rem;
+}
+
+.aside .aside-content p{
+    padding: 2rem;
+    margin: .5rem;
+    font-size: 1.2rem;
+    color: var(--them-white);
+    line-height: 2;
 }
 
 /* aside section end */
