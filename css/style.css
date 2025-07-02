@@ -20,7 +20,41 @@ html , body{
     margin: 0 auto;
 }
 
+.main{
+    width: calc(100%-300px);
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-6{
+    width: 50%;
+}
+.d-flex{
+    display: flex;
+}
+
+.justify-content-end{
+    justify-content: flex-end;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.align-item-center{
+    align-items: center;
+}
+
 /* tags */
+img{
+    width: 100%;
+    display: block;
+}
+
 ul li{
     list-style: none;
 }
@@ -29,6 +63,10 @@ a{
     text-decoration: none;
     display: inline-block;
     color: inherit;
+}
+hr{
+    margin: 3rem 0;
+    border: 3px solid var(--them-aqua-500);
 }
 
 
@@ -49,7 +87,7 @@ a{
 
 .aside .logo{
     text-align: center;
-    padding: 1.5rem;
+    padding-top: 3.5rem;
 }
 
 .aside .logo i{
@@ -66,8 +104,6 @@ a{
 }
 
 .aside nav ul li{
-    width: 100%;
-    padding: 1.2rem 2rem;
     padding-right: 10px;
     font-size: 21px;
     color: var(--them-white);
@@ -76,27 +112,32 @@ a{
 .aside nav ul li a{
     width: 100%; 
     font-size: 1.6rem;
-    border: 2px solid var(--them-white);
     padding: .5rem;
 }
-
+ 
 .aside nav ul li i{
     margin-right: 1rem;
 }
-/*.aside nav ul li{
+
+
+nav ul li:first-child{
     background-color: var(--them-white);
     color: var(--them-aqua-300);
+    margin-right: 2rem;
+    margin-left: 0px;
+    padding-left: 2rem;
  }
-*/
+
+
 .aside .aside-social-icon{
-    padding-left: 38px;
+    margin: 2rem;
 }
 
 .aside .aside-social-icon a{
     text-align: center;
     background-color: var(--them-white);
     color: var(--them-aqua-300);
-    padding: 1rem;
+    padding: .5rem;
     margin: .5rem;
     font-size: 2rem;
 }
@@ -110,3 +151,38 @@ a{
 }
 
 /* aside section end */
+
+/* main section start */
+
+.main{
+    margin: 3rem;
+    padding: 1rem;
+}
+
+.search input{
+    width: 50%;
+    padding: 1rem 0;
+    font-size: 1.3rem;
+    border: 1px solid var(--them-aqua-300);
+    outline: none;
+}
+
+.search i{
+    margin-left: .5rem;
+    padding: 1rem;
+    background-color: var(--them-aqua-300);
+    font-size: 2rem;
+    color: var(--them-white);
+}
+
+.card{
+    padding: 3rem;
+}
+
+.card h3{
+    padding: 1rem 0;
+    font-size: 2.2rem;
+    color: var(--them-aqua-500);
+}
+
+/* main section end */
