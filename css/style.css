@@ -21,7 +21,7 @@ html , body{
     margin: 0 auto;
 }
 
-.main{
+.xtrablog{
     width: calc(100% - 300px);
     margin-left: auto;
 }
@@ -37,7 +37,7 @@ html , body{
 }
 
 .col-2{
-    width: 50%;
+    padding: 2rem;
 }
 
 .d-flex{
@@ -78,8 +78,8 @@ a{
 
 
 
-/* aside section start */ 
-.aside{
+/* sidebar section start */ 
+.sidebar{
     width: 300px;
     background-color:var(--them-aqua-300);
     position: fixed;
@@ -89,42 +89,42 @@ a{
     overflow-y: scroll;
 }
 
-.aside::-webkit-scrollbar{
+.sidebar::-webkit-scrollbar{
     width: 0px;
 }
 
 
-.aside .logo{
+.sidebar .logo{
     text-align: center;
     padding-top: 3.5rem;
 }
 
-.aside .logo i{
+.sidebar .logo i{
     font-size: 26px;
     color: var(--them-white);
     padding: 1.5rem 0;
 }
 
-.aside .logo h2{
+.sidebar .logo h2{
     font-size: 2rem;
     font-weight: 500;
     color: var(--them-white);
     margin-bottom: 3.5rem;
 }
 
-.aside nav ul li{
+.sidebar nav ul li{
     padding-right: 10px;
     font-size: 21px;
     color: var(--them-white);
 }
 
-.aside nav ul li a{
+.sidebar nav ul li a{
     width: 100%; 
     font-size: 1.6rem;
     padding: .5rem;
 }
  
-.aside nav ul li i{
+.sidebar nav ul li i{
     margin-right: 1rem;
 }
 
@@ -138,11 +138,11 @@ nav ul li:first-child{
  }
 
 
-.aside .aside-social-icon{
+.sidebar .sidebar-social-icon{
     margin: 2rem;
 }
 
-.aside .aside-social-icon a{
+.sidebar .sidebar-social-icon a{
     text-align: center;
     background-color: var(--them-white);
     color: var(--them-aqua-300);
@@ -151,7 +151,7 @@ nav ul li:first-child{
     font-size: 2rem;
 }
 
-.aside .aside-content p{
+.sidebar .sidebar-content p{
     padding: 2rem;
     margin: .5rem;
     font-size: 1.2rem;
@@ -159,9 +159,9 @@ nav ul li:first-child{
     line-height: 2;
 }
 
-/* aside section end */
+/* sidebar section end */
 
-/* main section start */
+/* xtrablog section start */
 
 .blog-content{
     margin: 2rem;
@@ -214,22 +214,23 @@ nav ul li:first-child{
     margin: 3rem 0;
 }
 
+.footer h4{
+    color: var(--them-aqua-300);
+}
 
 .hr-2{
     margin: 1rem 0;
     border: 1px solid var(--theme-grey);
 }
-/* main section end */
+/* xtrablog section end */
 
 /* footer section start */
 .btn{
-    margin: 3rem 0;
-    text-align: center;
     font-size: 1.3rem;
 }
 
 .btn1{
-    padding: .5rem 4rem;
+    padding: .5rem 2rem;
     border: 0;
     border-radius: 5px;
     background-color: var(--theme-grey);
@@ -237,21 +238,20 @@ nav ul li:first-child{
 }
 
 .btn2{
-    margin-left: 4rem;
-    padding: .5rem 4rem;
+    margin-left: 3rem;
+    padding: .5rem 2rem;
     border: 0;
     border-radius: 5px;
     background-color: var(--them-aqua-300);
     color: var(--them-white);
 }
 .count{
-    margin: 3rem 0;
-    text-align: center;
     font-size: 1.3rem;
 }
 
 .count span{
-    padding: .5rem 2rem;
+    margin: .5rem;
+    padding: .5rem 1rem;
     background-color: var(--theme-grey);
     border-radius: 3px;
 }
@@ -265,8 +265,14 @@ nav ul li:first-child{
     border-radius: 3px;
 }
 
+.hr-3{
+    margin: 2rem;
+    border: 1px solid var(--theme-grey);
+}
+
 .text{
-    padding: 1rem 2rem;
+    padding: 1rem 3rem;
+    font-size: 18px;
 }
 
 .text span:last-child{
