@@ -1,5 +1,5 @@
 :root{
-    --them-aqua-300: #0ba3b1;
+    --them-aqua-300: #13b5c4;
     --them-aqua-500: #078490;
     --them-white: #fff;
     --theme-grey: #878787;
@@ -93,7 +93,6 @@ a{
     width: 0px;
 }
 
-
 .sidebar .logo{
     text-align: center;
     padding-top: 3.5rem;
@@ -123,6 +122,14 @@ a{
     font-size: 1.6rem;
     padding: .5rem;
 }
+
+.blog-home-shadow-border{
+    padding: 45px 125px;
+    border: 1px solid var(--them-white);
+    position: absolute;
+    transform: translate(-138px, 10px);
+}
+
  
 .sidebar nav ul li i{
     margin-right: 1rem;
@@ -130,16 +137,17 @@ a{
 
 
 nav ul li:first-child{
+    position: absolute;
     background-color: var(--them-white);
     color: var(--them-aqua-300);
     margin-right: 2rem;
     margin-left: 0px;
-    padding-left: 2rem;
+    padding-left: 45px;
  }
 
 
 .sidebar .sidebar-social-icon{
-    margin: 2rem;
+    margin: 2.5rem;
 }
 
 .sidebar .sidebar-social-icon a{
@@ -179,14 +187,14 @@ nav ul li:first-child{
 
 .search input{
     width: 50%;
-    padding: 1rem 0;
+    padding: 1rem;
     font-size: 1.3rem;
     border: 1px solid var(--them-aqua-300);
     outline: none;
 }
 
 .search i{
-    margin-left: .5rem;
+    margin-left: 2rem;
     padding: 1rem;
     background-color: var(--them-aqua-300);
     font-size: 2rem;
@@ -195,6 +203,18 @@ nav ul li:first-child{
 
 .card{
     padding: 2rem;
+    position: relative;
+}
+
+.new{
+    padding: .5rem 1rem;
+    background-color: var(--them-aqua-300);
+    color: var(--them-white);
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-10px,110px);
 }
 
 .card h3{
@@ -226,11 +246,12 @@ nav ul li:first-child{
 
 /* footer section start */
 .btn{
-    font-size: 1.3rem;
+    font-size: 2rem;
 }
 
 .btn1{
     padding: .5rem 2rem;
+    font-size: 1.5rem;
     border: 0;
     border-radius: 5px;
     background-color: var(--theme-grey);
@@ -240,6 +261,7 @@ nav ul li:first-child{
 .btn2{
     margin-left: 3rem;
     padding: .5rem 2rem;
+    font-size: 1.5rem;
     border: 0;
     border-radius: 5px;
     background-color: var(--them-aqua-300);
@@ -249,18 +271,21 @@ nav ul li:first-child{
     font-size: 1.3rem;
 }
 
-.count span{
+.count button{
     margin: .5rem;
     padding: .5rem 1rem;
     background-color: var(--theme-grey);
+    font-size: 24px;
+    outline: none;
+    border: 0px;
     border-radius: 3px;
 }
 
-.count span:first-child{
+.count button:first-child{
     background-color: var(--them-white);
 }
 
-.count span:nth-child(2){
+.count button:nth-child(2){
     background-color: var(--them-aqua-300);
     border-radius: 3px;
 }
