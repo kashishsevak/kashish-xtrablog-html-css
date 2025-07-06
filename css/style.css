@@ -124,10 +124,10 @@ a{
 }
 
 .blog-home-shadow-border{
-    padding: 45px 125px;
+    padding: 45px 135px;
     border: 1px solid var(--them-white);
     position: absolute;
-    transform: translate(-138px, 10px);
+    transform: translate(-140px, -80px);
 }
 
  
@@ -137,7 +137,6 @@ a{
 
 
 nav ul li:first-child{
-    position: absolute;
     background-color: var(--them-white);
     color: var(--them-aqua-300);
     margin-right: 2rem;
